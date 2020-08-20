@@ -20,7 +20,7 @@ class Backer
     @name = input
   end
 
-  def name 
+  def name
     @name
   end
 
