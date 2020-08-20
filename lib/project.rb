@@ -8,7 +8,7 @@ end
 def add_backer(inputBacker)
   @backers << inputBacker
   if !(inputBacker.backed_projects.include?(self))
-    inputBacker.add_project(self)
+    inputBacker.back_project(self)
   end
 end
 
