@@ -16,4 +16,12 @@ class Backer
     @backed_projects
   end
 
+  def name=(input)
+    @name = input
+  end
+
+  def name 
+    @name
+  end
+
 end
