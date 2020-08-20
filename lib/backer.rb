@@ -12,4 +12,8 @@ class Backer
     end
   end
 
+  def projects
+    @backed_projects
+  end
+
 end
