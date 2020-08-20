@@ -16,4 +16,12 @@ def backers
   @backers
 end
 
+def title
+  @name
+end
+
+def title=(input)
+  @name = input
+end
+
 end
