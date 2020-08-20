@@ -12,4 +12,8 @@ def add_backer(inputBacker)
   end
 end
 
+def backers
+  @backers
+end
+
 end
